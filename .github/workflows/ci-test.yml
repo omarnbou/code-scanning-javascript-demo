@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 14
-      #- run: npm install
+      - run: npm install
       #- run: npm install -g jest
       - run: npm ci
       - run: npm run build --if-present
